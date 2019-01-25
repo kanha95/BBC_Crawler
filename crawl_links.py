@@ -19,7 +19,7 @@ display.start()
 
 profile = webdriver.FirefoxProfile()
 profile.set_preference("network.proxy.type", 2)
-profile.set_preference("network.proxy.autoconfig_url", "http://mcs182012:%40roshan123@www.cc.iitd.ac.in/cgi-bin/proxy.research")
+profile.set_preference("network.proxy.autoconfig_url", "http://mcs182012:password@www.cc.iitd.ac.in/cgi-bin/proxy.research")
 profile.update_preferences()
 
 sel = webdriver.Firefox(firefox_profile=profile)
